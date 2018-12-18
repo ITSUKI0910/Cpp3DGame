@@ -1,6 +1,2 @@
-﻿  main.cpp
-p:\ゲーム製作\cpp3dgame\3dgame\3dgame\main.cpp(54): warning C4838: 'double' から 'const GLfloat' への変換には縮小変換が必要です
-p:\ゲーム製作\cpp3dgame\3dgame\3dgame\main.cpp(54): warning C4305: '初期化中': 'double' から 'const GLfloat' へ切り詰めます。
-p:\ゲーム製作\cpp3dgame\3dgame\3dgame\main.cpp(56): warning C4838: 'double' から 'const GLfloat' への変換には縮小変換が必要です
-p:\ゲーム製作\cpp3dgame\3dgame\3dgame\main.cpp(56): warning C4305: '初期化中': 'double' から 'const GLfloat' へ切り詰めます。
-  3DGame.vcxproj -> P:\ゲーム製作\Cpp3DGame\3DGame\Debug\3DGame.exe
+﻿  MyGame.cpp
+  3DGame.vcxproj -> D:\ゲーム制作\Cpp3DGame\3DGame\Debug\3DGame.exe
