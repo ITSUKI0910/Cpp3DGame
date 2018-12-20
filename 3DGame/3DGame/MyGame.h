@@ -1,5 +1,6 @@
 #pragma once
 #include <GSgame.h>
+#include "I_Input.h"
 class MyGame :public gslib::Game
 {
 public:
@@ -12,6 +13,7 @@ public:
 	void end() override;
 
 private:
+	I_Input Iinput;
 	 GLdouble aCubeVertex[8][3] = {
 		{ 0.0, 0.0, 0.0 },
 	    { 1.0, 0.0, 0.0 },
@@ -46,7 +48,14 @@ private:
 	  GLfloat aLightColor[4] = { 0.2f,0.2f,0.8f,1.0f };//êF
 	  GLfloat aLight0pos[4] = { 0.0f,3.0f,5.0f,1.0f };//åıåπÇOÇÃà íu
 	  GLfloat aLight1pos[4] = { 5.0f,3.0f,0.0f,1.0f};//åıåπÇPÇÃà íu
-	  GLfloat X{0.0f}, Y{0.0f}, Z{5.0f};
+	  /*
+v 5.7033500671386719 -677.19952392578125 -119.18357086181641
+v 5.7116608619689941 -677.1922607421875 -117.19139862060547
+v 6.5980024337768555 -677.95556640625 -114.41569519042969
 
-
+usemtl material_0
+vt 0.079942658543586731 0.62587225437164307
+vt 0.080348864197731018 0.62496352195739746
+vt 0.078639127314090729 0.62573790550231934
+*/
 };
